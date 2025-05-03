@@ -39,22 +39,28 @@ In this project, I created a Virtual Network (VNet) with a subnet, reserving an 
 
 ### Step-1
 i. Create a Virtual Network (VNet) and configure a subnet with a /26 IP address range to allocate 64 IP addresses.
+
 ![Capture1](https://github.com/user-attachments/assets/1be083e3-f58b-4729-80ea-181b7f8fbc2c)
 
 ii.Create a <strong>Virtual Machine (VM)</strong> and associate it with the <strong>subnet</strong> you created within the <strong>Virtual Network (VNet)</strong>.
+
 ![Capture2](https://github.com/user-attachments/assets/1faf0680-8f0f-46a1-8af1-f75cab97d628)
 
 ### Step-2
 i. Once the VM is created, click on the Connect button, then select Connect using Bastion.
+
 ![Capture3](https://github.com/user-attachments/assets/c5d8ecb0-9919-42d7-bddd-aad9645ee183)
 
 ii. Now, click on Deploy Bastion to set up the Azure Bastion service for secure VM access.
+
 ![Capture4](https://github.com/user-attachments/assets/f7387a02-d928-42be-adda-82f35b15d8dd)
 
 iii. Enter your username and password, then click on the Connect button to access the VM securely through Azure Bastion.
+
 ![Capture5](https://github.com/user-attachments/assets/045adbae-6f31-4d04-bfeb-fb4b389ee49a)
 
 iv. Now, you will see that the VM is successfully connected using Azure Bastion, providing a secure, browser-based RDP/SSH session without exposing the VM to the internet. 🚀
+
 ![Capture6](https://github.com/user-attachments/assets/d482ebae-744c-43b9-8cb4-144ed8cc7cd7)
 
 
